@@ -1,0 +1,2 @@
+*/.ipynb_checkpoints/* filter=lfs diff=lfs merge=lfs -text
+assignment6/train_x.csv filter=lfs diff=lfs merge=lfs -text

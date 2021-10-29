@@ -1,0 +1,3 @@
+[submodule "project/nasbench"]
+path = project/nasbench
+url = https://github.com/jdonovanCS/nasbench
