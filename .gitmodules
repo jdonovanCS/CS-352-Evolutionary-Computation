@@ -1,3 +1,6 @@
 [submodule "project/nasbench"]
 path = project/nasbench
 url = https://github.com/jdonovanCS/nasbench
+[submodule "project/nas_benchmarks"]
+	path = project/nas_benchmarks
+	url = https://github.com/jdonovanCS/nas_benchmarks
