@@ -11,6 +11,10 @@ To download the datasets for the FC-Net benchmark:
     tar xf fcnet_tabular_benchmarks.tar.gz
     
 The data for NASBench is available [here](https://github.com/google-research/nasbench).
+    Might want to install this repo as well using
+    
+    cd nasbench
+    python setup.py install
 
 To install it, type:
 
@@ -18,6 +22,13 @@ To install it, type:
     cd nas_benchmarks
     python setup.py install
    
+ We might also want to download the dataset nasbench_full.tfrecord from: 
+    https://storage.googleapis.com/nasbench/nasbench_full.tfrecord
+
+ And we will want to install tensorflow-gpu 1.15
+
+    pip install tensorflow-gpu==1.15
+ 
  The following example shows how to load the benchmark and to evaluate a random hyperparameter configuration:
   
     from tabular_benchmarks import FCNetProteinStructureBenchmark
